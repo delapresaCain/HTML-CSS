@@ -1,0 +1,38 @@
+body{
+    background-color: cadetblue;
+}
+
+span{
+    font-size: large;
+}
+
+
+.card{
+    border: 3px solid black;
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    border-radius: 9%;
+    transition: 3s;
+  
+}
+
+.card:hover{
+    background-color: rgb(186, 111, 224);
+}
+
+#card-container{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+#titulo{
+    border: 2px solid black;
+    width: 55vw;
+    color: white;
+    background-color: black;
+    margin: auto;
+    padding: 1em;
+}
